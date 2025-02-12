@@ -1,5 +1,9 @@
 ---
+import Navigation from '../components/Navigation.astro'
+import Footer from '../components/Footer.astro'
+import '../styles/global.css'
 
+const pageTitle = "TMPLT Temple T"
 ---
 
 <html lang="en">
@@ -8,9 +12,60 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<Navigation />
+		<h1>{pageTitle}</h1>
+
+		This part I wrote myself, but my squirrel 
+		brain isn't the best at organizing thoughts
+		so I also like to use AI assisted tools. 
+		Below is what my various notes became when
+		I sent them to CoPilot for cleanup (cuz I 
+		believe in honest disclosure).
+
+		<br />
+		<br />
+		
+		I will eventually be merging the two, but 
+		this way there will be a record of what came
+		from where in the code repository should
+		future devs ever wonder... :)
+
+		<br />
+		<br />
+		
+		BLURB FROM OBSIDIAN NOTES BELOW THIS LINE (Copilot Helped write this)
+		THE BELOW PORTION IS UNEDITED CURRENTLY
+
+		<br />
+		<br />
+
+
+		Welcome to TMPLT Temple T, the heart of style and design for our Cyber Temple network. As the definitive style guide, TMPLT Temple T is dedicated to showcasing the core elements that define our aesthetic and format across all sister platforms. Here, you’ll discover the fundamental principles that unify Cyber Temple Cet and Aethyr Temple Alpha, ensuring a cohesive and distinct experience.
+
+		<br />
+		<br />
+
+		At TMPLT Temple T, we celebrate the art of form and function. This is your gateway to exploring our meticulously crafted templates, where each element is a testament to our commitment to elegance, simplicity, and innovation. While the content here may be limited to standard Ipsum text, it serves as a canvas to illustrate the seamless integration of design and usability.
+
+		<br />
+		<br />
+
+		Join us in maintaining a distinct and harmonious feel across our digital sanctuaries. Dive into the essence of TMPLT Temple T and experience the foundation upon which our creative vision thrives.
+
+		<br />
+		<br />
+
+		Welcome to the epicenter of style – TMPLT Temple T.
+
+		<br />
+		<br />
+		<Footer />
+		<br />
+		<br />
+		<br />
 	</body>
 </html>
+
